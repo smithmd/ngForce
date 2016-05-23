@@ -22,6 +22,10 @@ angular.module('ngForce')
         throw new Error('Visualforce is not available as an object! Did you forget to include the ngForce component?');
       }
       var vfRemote = {};
+      var standardOpts = {
+        escape: false,
+            timeout: 10000
+      };
 
       return {
         /**
@@ -30,10 +34,7 @@ angular.module('ngForce')
          * timeout: set the timeout for visualforce to respond.
          * @type {Object}
          */
-        standardOpts: {
-          escape: false,
-          timeout: 10000
-        },
+
         setStandardOptions: function (newOptions) {
           if (newOptions && typeof newOptions !== 'object') {
             throw new Error('standardOptions must be an object');
@@ -100,8 +101,12 @@ angular.module('ngForce')
            */
           function handleResultWithPromise(result, event, nullok, deferred) {
             if (result) {
+              result = decodeURI(result);
               if (typeof result !== 'object') {
-                result = JSON.parse(result);
+                // only parse json if the result actually *IS* json. VFRemote can return strings as well as objects.
+                if (result.indexOf('{') === 0) {
+                  result = JSON.parse(result);
+                }
               }
               if (Array.isArray(result) && result.length !== 0 && result[0].message && result[0].errorCode) {
                 //Handle INVALID_SESSION_ID err coming back
@@ -131,7 +136,7 @@ angular.module('ngForce')
               });
               $rootScope.$safeApply();
             }
-          };
+          }
 
           /**
            * This the returned object literal for the $get call.
