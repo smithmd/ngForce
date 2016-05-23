@@ -85,7 +85,6 @@ angular.module('ngForce')
                 args.push(options);
               }
 
-              console.log(args);
               Manager.invokeAction.apply(Manager, args);
               return deferred.promise;
             };
