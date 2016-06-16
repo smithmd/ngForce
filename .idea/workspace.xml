@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="fdb16032-d04b-4aa7-a02e-6e2907e5a76e" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gruntfile.js" afterPath="$PROJECT_DIR$/Gruntfile.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ngForce-dependencies.min.js" afterPath="$PROJECT_DIR$/build/ngForce-dependencies.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ngForce.min.js" afterPath="$PROJECT_DIR$/build/ngForce.min.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ngForce.min.js.map" afterPath="$PROJECT_DIR$/build/ngForce.min.js.map" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/ngForceWithDependencies.min.js" afterPath="$PROJECT_DIR$/build/ngForceWithDependencies.min.js" />
@@ -32,7 +34,7 @@
       <file leaf-file-name="ngForce.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/jsSrc/ngForce.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
+            <state relative-caret-position="375">
               <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
@@ -44,21 +46,11 @@
       <file leaf-file-name="ngForce-visualForceRemoting.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/jsSrc/subModules/ngForce-visualForceRemoting.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="311">
-              <caret line="153" column="40" selection-start-line="153" selection-start-column="37" selection-end-line="153" selection-end-column="40" />
+            <state relative-caret-position="466">
+              <caret line="107" column="38" selection-start-line="107" selection-start-column="38" selection-end-line="107" selection-end-column="38" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Gruntfile.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Gruntfile.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1728">
-              <caret line="96" column="8" selection-start-line="96" selection-start-column="8" selection-end-line="96" selection-end-column="8" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -76,8 +68,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Gruntfile.js" />
         <option value="$PROJECT_DIR$/jsSrc/subModules/ngForce-visualForceRemoting.js" />
+        <option value="$PROJECT_DIR$/Gruntfile.js" />
       </list>
     </option>
   </component>
@@ -89,8 +81,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="width" value="2235" />
-    <option name="height" value="1415" />
+    <option name="width" value="2560" />
+    <option name="height" value="1440" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -117,8 +109,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -204,6 +194,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -213,6 +205,9 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="FullScreen" value="true" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -627,18 +622,20 @@
       <workItem from="1463764619809" duration="5420000" />
       <workItem from="1464021828850" duration="179000" />
       <workItem from="1464022195473" duration="1818000" />
+      <workItem from="1466102225827" duration="1046000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7417000" />
+    <option name="totallyTimeSpent" value="8463000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="2235" height="1415" extended-state="1" />
-    <editor active="true" />
+    <frame x="0" y="0" width="2560" height="1440" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="SvgViewer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971296" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -646,10 +643,10 @@
       <window_info id="Anonymous Apex" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32971296" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23351435" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2244898" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2355089" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20492454" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="SOQL Query" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -674,6 +671,34 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/jsSrc/ngForce.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/jsSrc/subModules/ngForce-visualForceRemoting.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1440">
+          <caret line="96" column="8" selection-start-line="96" selection-start-column="8" selection-end-line="96" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/jsSrc/ngForce.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
@@ -739,19 +764,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/jsSrc/ngForce.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
+        <state relative-caret-position="375">
           <caret line="25" column="3" selection-start-line="25" selection-start-column="3" selection-end-line="25" selection-end-column="3" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1728">
-          <caret line="96" column="8" selection-start-line="96" selection-start-column="8" selection-end-line="96" selection-end-column="8" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -764,10 +781,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/jsSrc/subModules/ngForce-visualForceRemoting.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="153" column="40" selection-start-line="153" selection-start-column="37" selection-end-line="153" selection-end-column="40" />
+        <state relative-caret-position="466">
+          <caret line="107" column="38" selection-start-line="107" selection-start-column="38" selection-end-line="107" selection-end-column="38" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

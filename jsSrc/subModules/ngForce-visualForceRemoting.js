@@ -103,8 +103,9 @@ angular.module('ngForce')
               result = decodeURI(result);
               if (typeof result !== 'object') {
                 // only parse json if the result actually *IS* json. VFRemote can return strings as well as objects.
-                if (result.indexOf('{') === 0) {
+                try {
                   result = JSON.parse(result);
+                } catch(SyntaxError) {
                 }
               }
               if (Array.isArray(result) && result.length !== 0 && result[0].message && result[0].errorCode) {
